@@ -1,0 +1,7 @@
+array_tests_NOT_BUILT 0 0
+optional_tests_NOT_BUILT 0 0
+unique_ptr_tests_NOT_BUILT 0 0
+---
+array_tests_NOT_BUILT
+optional_tests_NOT_BUILT
+unique_ptr_tests_NOT_BUILT

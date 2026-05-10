@@ -1,0 +1,51 @@
+Start testing: May 10 17:09 MSK
+----------------------------------------------------------
+Unable to find executable: array_tests_NOT_BUILT
+1/3 Testing: array_tests_NOT_BUILT
+1/3 Test: array_tests_NOT_BUILT
+Command: ""
+Directory: /home/Alishka/cpp/lab_templates/build
+"array_tests_NOT_BUILT" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"array_tests_NOT_BUILT" end time: May 10 17:09 MSK
+"array_tests_NOT_BUILT" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: optional_tests_NOT_BUILT
+2/3 Testing: optional_tests_NOT_BUILT
+2/3 Test: optional_tests_NOT_BUILT
+Command: ""
+Directory: /home/Alishka/cpp/lab_templates/build
+"optional_tests_NOT_BUILT" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"optional_tests_NOT_BUILT" end time: May 10 17:09 MSK
+"optional_tests_NOT_BUILT" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: unique_ptr_tests_NOT_BUILT
+3/3 Testing: unique_ptr_tests_NOT_BUILT
+3/3 Test: unique_ptr_tests_NOT_BUILT
+Command: ""
+Directory: /home/Alishka/cpp/lab_templates/build
+"unique_ptr_tests_NOT_BUILT" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"unique_ptr_tests_NOT_BUILT" end time: May 10 17:09 MSK
+"unique_ptr_tests_NOT_BUILT" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: May 10 17:09 MSK
