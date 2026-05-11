@@ -33,12 +33,14 @@ CMakeFiles/array_tests.dir/array_tests.cpp.o: /home/Alishka/cpp/lab_templates/ar
   /usr/include/asm-generic/posix_types.h \
   /usr/include/asm-generic/types.h \
   /usr/include/assert.h \
+  /usr/include/c++/14/algorithm \
   /usr/include/c++/14/any \
   /usr/include/c++/14/array \
   /usr/include/c++/14/atomic \
   /usr/include/c++/14/backward/auto_ptr.h \
   /usr/include/c++/14/backward/binders.h \
   /usr/include/c++/14/bit \
+  /usr/include/c++/14/bits/algorithmfwd.h \
   /usr/include/c++/14/bits/align.h \
   /usr/include/c++/14/bits/alloc_traits.h \
   /usr/include/c++/14/bits/allocated_ptr.h \
@@ -101,10 +103,12 @@ CMakeFiles/array_tests.dir/array_tests.cpp.o: /home/Alishka/cpp/lab_templates/ar
   /usr/include/c++/14/bits/std_abs.h \
   /usr/include/c++/14/bits/std_function.h \
   /usr/include/c++/14/bits/std_mutex.h \
+  /usr/include/c++/14/bits/stl_algo.h \
   /usr/include/c++/14/bits/stl_algobase.h \
   /usr/include/c++/14/bits/stl_bvector.h \
   /usr/include/c++/14/bits/stl_construct.h \
   /usr/include/c++/14/bits/stl_function.h \
+  /usr/include/c++/14/bits/stl_heap.h \
   /usr/include/c++/14/bits/stl_iterator.h \
   /usr/include/c++/14/bits/stl_iterator_base_funcs.h \
   /usr/include/c++/14/bits/stl_iterator_base_types.h \
@@ -124,6 +128,7 @@ CMakeFiles/array_tests.dir/array_tests.cpp.o: /home/Alishka/cpp/lab_templates/ar
   /usr/include/c++/14/bits/streambuf_iterator.h \
   /usr/include/c++/14/bits/string_view.tcc \
   /usr/include/c++/14/bits/stringfwd.h \
+  /usr/include/c++/14/bits/uniform_int_dist.h \
   /usr/include/c++/14/bits/unique_lock.h \
   /usr/include/c++/14/bits/unique_ptr.h \
   /usr/include/c++/14/bits/unordered_map.h \
@@ -174,6 +179,7 @@ CMakeFiles/array_tests.dir/array_tests.cpp.o: /home/Alishka/cpp/lab_templates/ar
   /usr/include/c++/14/optional \
   /usr/include/c++/14/ostream \
   /usr/include/c++/14/pstl/execution_defs.h \
+  /usr/include/c++/14/pstl/glue_algorithm_defs.h \
   /usr/include/c++/14/pstl/glue_memory_defs.h \
   /usr/include/c++/14/pstl/pstl_config.h \
   /usr/include/c++/14/ratio \
@@ -347,49 +353,6 @@ CMakeFiles/array_tests.dir/array_tests.cpp.o: /home/Alishka/cpp/lab_templates/ar
   /usr/lib/linux/uapi/x86/asm/posix_types_64.h \
   /usr/lib/linux/uapi/x86/asm/types.h
 
-array_tests: /lib/x86_64-linux-gnu/libc.so.6 \
-  /lib/x86_64-linux-gnu/libm.so.6 \
-  /lib/x86_64-linux-gnu/libmvec.so.1 \
-  /lib64/ld-linux-x86-64.so.2 \
-  /usr/lib/x86_64-linux-gnu/Scrt1.o \
-  /usr/lib/x86_64-linux-gnu/crti.o \
-  /usr/lib/x86_64-linux-gnu/crtn.o \
-  /usr/lib/x86_64-linux-gnu/libc.so \
-  /usr/lib/x86_64-linux-gnu/libgcc_s.so.1 \
-  /usr/lib/x86_64-linux-gnu/libm.so \
-  /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o \
-  /usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o \
-  /usr/lib/gcc/x86_64-linux-gnu/14/libasan.so \
-  /usr/lib/gcc/x86_64-linux-gnu/14/libasan_preinit.o \
-  /usr/lib/gcc/x86_64-linux-gnu/14/libgcc.a \
-  /usr/lib/gcc/x86_64-linux-gnu/14/libgcc_s.so \
-  /usr/lib/gcc/x86_64-linux-gnu/14/libstdc++.so \
-  /usr/lib/gcc/x86_64-linux-gnu/14/libubsan.so \
-  /usr/lib/x86_64-linux-gnu/libc_nonshared.a \
-  CMakeFiles/array_tests.dir/array_tests.cpp.o \
-  lib/libgtest.a \
-  lib/libgtest_main.a
-
-
-lib/libgtest.a:
-
-/usr/lib/x86_64-linux-gnu/libc_nonshared.a:
-
-/usr/lib/gcc/x86_64-linux-gnu/14/libstdc++.so:
-
-/usr/lib/gcc/x86_64-linux-gnu/14/libgcc.a:
-
-/usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o:
-
-/usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o:
-
-/usr/lib/x86_64-linux-gnu/libc.so:
-
-/usr/lib/x86_64-linux-gnu/crti.o:
-
-/usr/lib/gcc/x86_64-linux-gnu/14/libasan_preinit.o:
-
-/lib64/ld-linux-x86-64.so.2:
 
 /usr/lib/linux/uapi/x86/asm/posix_types.h:
 
@@ -475,8 +438,6 @@ lib/libgtest.a:
 
 /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
@@ -507,23 +468,19 @@ lib/libgtest.a:
 
 /usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/14/libubsan.so:
-
 /usr/include/x86_64-linux-gnu/bits/stdint-least.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
 
-/usr/include/c++/14/bits/unordered_map.h:
+/usr/include/x86_64-linux-gnu/bits/statx-generic.h:
 
-_deps/googletest-src/googletest/include/gtest/internal/gtest-type-util.h:
+/usr/include/x86_64-linux-gnu/c++/14/bits/c++locale.h:
 
-/usr/include/c++/14/bits/unique_lock.h:
+/usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h:
 
-/usr/include/c++/14/debug/assertions.h:
+/usr/include/x86_64-linux-gnu/bits/ss_flags.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigthread.h:
 
 /usr/include/c++/14/bits/streambuf_iterator.h:
 
@@ -555,6 +512,10 @@ _deps/googletest-src/googletest/include/gtest/internal/gtest-type-util.h:
 
 /usr/include/asm-generic/errno-base.h:
 
+/usr/include/c++/14/bits/stl_heap.h:
+
+/usr/include/c++/14/functional:
+
 /usr/include/c++/14/pstl/pstl_config.h:
 
 /usr/include/c++/14/bits/shared_ptr_atomic.h:
@@ -575,10 +536,6 @@ _deps/googletest-src/googletest/include/gtest/internal/gtest-type-util.h:
 
 /usr/include/asm-generic/errno.h:
 
-/usr/include/c++/14/bits/stl_pair.h:
-
-/usr/include/c++/14/bits/ostream_insert.h:
-
 /usr/include/c++/14/bits/stl_bvector.h:
 
 /usr/include/c++/14/bits/new_allocator.h:
@@ -590,8 +547,6 @@ _deps/googletest-src/googletest/include/gtest/internal/gtest-type-util.h:
 /usr/include/x86_64-linux-gnu/bits/select.h:
 
 /usr/include/c++/14/bits/nested_exception.h:
-
-/usr/include/c++/14/bits/uses_allocator.h:
 
 /usr/include/c++/14/bits/localefwd.h:
 
@@ -606,8 +561,6 @@ _deps/googletest-src/googletest/include/gtest/internal/gtest-type-util.h:
 _deps/googletest-src/googletest/include/gtest/gtest-message.h:
 
 /usr/include/c++/14/bits/locale_conv.h:
-
-/lib/x86_64-linux-gnu/libm.so.6:
 
 /usr/include/c++/14/iosfwd:
 
@@ -624,8 +577,6 @@ _deps/googletest-src/googletest/include/gtest/gtest-message.h:
 /usr/include/x86_64-linux-gnu/bits/signum-generic.h:
 
 /usr/include/c++/14/bits/hashtable.h:
-
-/usr/lib/x86_64-linux-gnu/crtn.o:
 
 /usr/include/x86_64-linux-gnu/bits/waitflags.h:
 
@@ -655,17 +606,27 @@ _deps/googletest-src/googletest/include/gtest/gtest-death-test.h:
 
 /usr/include/x86_64-linux-gnu/bits/locale.h:
 
+/usr/include/c++/14/bits/exception.h:
+
+_deps/googletest-src/googletest/include/gtest/gtest_pred_impl.h:
+
+/usr/include/c++/14/cctype:
+
+/usr/include/c++/14/bits/erase_if.h:
+
 /usr/include/c++/14/bits/string_view.tcc:
 
 /usr/include/c++/14/bits/stl_tree.h:
 
 _deps/googletest-src/googletest/include/gtest/internal/gtest-param-util.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/14/libgcc_s.so:
-
 /usr/include/c++/14/bits/chrono.h:
 
 /usr/include/c++/14/bit:
+
+/usr/include/features.h:
+
+/usr/include/c++/14/bits/node_handle.h:
 
 /usr/include/x86_64-linux-gnu/bits/errno.h:
 
@@ -689,8 +650,6 @@ _deps/googletest-src/googletest/include/gtest/internal/gtest-port-arch.h:
 
 /usr/include/c++/14/bits/memory_resource.h:
 
-/usr/include/x86_64-linux-gnu/bits/statx-generic.h:
-
 /usr/include/c++/14/bits/requires_hosted.h:
 
 _deps/googletest-src/googletest/include/gtest/internal/custom/gtest-printers.h:
@@ -701,14 +660,6 @@ _deps/googletest-src/googletest/include/gtest/internal/custom/gtest-printers.h:
 
 _deps/googletest-src/googletest/include/gtest/gtest_prod.h:
 
-/usr/include/c++/14/bits/exception.h:
-
-_deps/googletest-src/googletest/include/gtest/gtest_pred_impl.h:
-
-/usr/include/c++/14/cctype:
-
-/usr/lib/x86_64-linux-gnu/libm.so:
-
 /usr/include/c++/14/ios:
 
 /usr/include/asm-generic/int-ll64.h:
@@ -716,6 +667,12 @@ _deps/googletest-src/googletest/include/gtest/gtest_pred_impl.h:
 _deps/googletest-src/googletest/include/gtest/internal/custom/gtest-port.h:
 
 /usr/include/c++/14/bits/shared_ptr_base.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
+
+/usr/include/c++/14/bits/uniform_int_dist.h:
 
 /usr/include/x86_64-linux-gnu/bits/cpu-set.h:
 
@@ -741,11 +698,15 @@ _deps/googletest-src/googletest/include/gtest/internal/gtest-internal.h:
 
 /usr/include/stdc-predef.h:
 
+_deps/googletest-src/googletest/include/gtest/internal/gtest-type-util.h:
+
+/usr/include/c++/14/bits/unordered_map.h:
+
 /usr/include/c++/14/bits/locale_facets.h:
 
 /usr/include/c++/14/bits/basic_string.h:
 
-/usr/include/x86_64-linux-gnu/bits/sigthread.h:
+/usr/include/c++/14/bits/algorithmfwd.h:
 
 /usr/include/c++/14/bits/istream.tcc:
 
@@ -777,8 +738,6 @@ _deps/googletest-src/googletest/include/gtest/gtest-typed-test.h:
 
 /usr/include/c++/14/bits/ptr_traits.h:
 
-/lib/x86_64-linux-gnu/libc.so.6:
-
 /usr/include/x86_64-linux-gnu/bits/types/sigval_t.h:
 
 /usr/include/c++/14/pstl/glue_memory_defs.h:
@@ -803,9 +762,15 @@ _deps/googletest-src/googletest/include/gtest/gtest-assertion-result.h:
 
 /usr/include/c++/14/stdexcept:
 
-/usr/include/c++/14/any:
+/usr/include/c++/14/algorithm:
 
-lib/libgtest_main.a:
+/usr/lib/gcc/x86_64-linux-gnu/14/include/float.h:
+
+/usr/include/c++/14/istream:
+
+/usr/include/stdlib.h:
+
+/usr/include/c++/14/any:
 
 /usr/include/c++/14/array:
 
@@ -814,6 +779,10 @@ lib/libgtest_main.a:
 /usr/include/x86_64-linux-gnu/bits/statx.h:
 
 /usr/include/unistd.h:
+
+/usr/include/c++/14/bits/stl_pair.h:
+
+/usr/include/c++/14/bits/ostream_insert.h:
 
 /usr/include/c++/14/bits/cxxabi_forced.h:
 
@@ -875,7 +844,17 @@ _deps/googletest-src/googletest/include/gtest/gtest-printers.h:
 
 /usr/include/c++/14/bits/enable_special_members.h:
 
-/usr/include/c++/14/bits/erase_if.h:
+/usr/include/c++/14/bits/unique_lock.h:
+
+/usr/include/c++/14/debug/assertions.h:
+
+/usr/include/c++/14/iterator:
+
+_deps/googletest-src/googletest/include/gtest/internal/gtest-string.h:
+
+/usr/include/c++/14/bits/unique_ptr.h:
+
+/usr/include/c++/14/bits/uses_allocator.h:
 
 /usr/include/c++/14/bits/uses_allocator_args.h:
 
@@ -898,6 +877,12 @@ _deps/googletest-src/googletest/include/gtest/gtest-printers.h:
 /usr/include/c++/14/ostream:
 
 /usr/include/c++/14/compare:
+
+/usr/include/x86_64-linux-gnu/bits/stat.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigstksz.h:
+
+/usr/include/c++/14/concepts:
 
 /usr/include/c++/14/cstddef:
 
@@ -945,35 +930,15 @@ _deps/googletest-src/googletest/include/gtest/internal/gtest-death-test-internal
 
 /usr/include/c++/14/ext/type_traits.h:
 
-/usr/include/c++/14/functional:
-
-/usr/include/c++/14/bits/unique_ptr.h:
-
-_deps/googletest-src/googletest/include/gtest/internal/gtest-string.h:
-
-/usr/include/c++/14/iterator:
-
-/usr/include/c++/14/bits/node_handle.h:
-
-/usr/include/features.h:
+/usr/include/c++/14/bits/functional_hash.h:
 
 /usr/include/c++/14/limits:
-
-/usr/include/c++/14/bits/functional_hash.h:
 
 /usr/include/c++/14/iomanip:
 
 /usr/include/c++/14/bits/streambuf.tcc:
 
 /usr/include/x86_64-linux-gnu/bits/posix_opt.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/14/include/float.h:
-
-/usr/include/c++/14/istream:
-
-/lib/x86_64-linux-gnu/libmvec.so.1:
-
-/usr/include/stdlib.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
 
@@ -983,9 +948,15 @@ _deps/googletest-src/googletest/include/gtest/internal/gtest-string.h:
 
 /usr/include/c++/14/memory:
 
+/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
+
+/usr/include/c++/14/pstl/glue_algorithm_defs.h:
+
 /usr/include/x86_64-linux-gnu/bits/sched.h:
 
 /usr/include/c++/14/ratio:
+
+/usr/include/c++/14/bits/stl_algo.h:
 
 /usr/include/c++/14/sstream:
 
@@ -994,10 +965,6 @@ _deps/googletest-src/googletest/include/gtest/internal/gtest-string.h:
 /usr/include/c++/14/tuple:
 
 /usr/include/c++/14/type_traits:
-
-/usr/lib/gcc/x86_64-linux-gnu/14/libasan.so:
-
-/usr/lib/x86_64-linux-gnu/Scrt1.o:
 
 /usr/include/c++/14/typeinfo:
 
@@ -1017,8 +984,6 @@ _deps/googletest-src/googletest/include/gtest/internal/gtest-string.h:
 
 /usr/include/ctype.h:
 
-/usr/lib/x86_64-linux-gnu/libgcc_s.so.1:
-
 /usr/include/linux/close_range.h:
 
 /usr/include/linux/errno.h:
@@ -1026,8 +991,6 @@ _deps/googletest-src/googletest/include/gtest/internal/gtest-string.h:
 /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
 
 /usr/include/linux/types.h:
-
-CMakeFiles/array_tests.dir/array_tests.cpp.o:
 
 /usr/include/locale.h:
 
@@ -1092,15 +1055,3 @@ CMakeFiles/array_tests.dir/array_tests.cpp.o:
 /usr/include/x86_64-linux-gnu/bits/signal_ext.h:
 
 /usr/include/x86_64-linux-gnu/bits/sigstack.h:
-
-/usr/include/c++/14/concepts:
-
-/usr/include/x86_64-linux-gnu/bits/stat.h:
-
-/usr/include/x86_64-linux-gnu/bits/sigstksz.h:
-
-/usr/include/x86_64-linux-gnu/c++/14/bits/c++locale.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/ss_flags.h:

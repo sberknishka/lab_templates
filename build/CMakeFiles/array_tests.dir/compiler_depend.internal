@@ -34,12 +34,14 @@ CMakeFiles/array_tests.dir/array_tests.cpp.o
  /usr/include/asm-generic/posix_types.h
  /usr/include/asm-generic/types.h
  /usr/include/assert.h
+ /usr/include/c++/14/algorithm
  /usr/include/c++/14/any
  /usr/include/c++/14/array
  /usr/include/c++/14/atomic
  /usr/include/c++/14/backward/auto_ptr.h
  /usr/include/c++/14/backward/binders.h
  /usr/include/c++/14/bit
+ /usr/include/c++/14/bits/algorithmfwd.h
  /usr/include/c++/14/bits/align.h
  /usr/include/c++/14/bits/alloc_traits.h
  /usr/include/c++/14/bits/allocated_ptr.h
@@ -102,10 +104,12 @@ CMakeFiles/array_tests.dir/array_tests.cpp.o
  /usr/include/c++/14/bits/std_abs.h
  /usr/include/c++/14/bits/std_function.h
  /usr/include/c++/14/bits/std_mutex.h
+ /usr/include/c++/14/bits/stl_algo.h
  /usr/include/c++/14/bits/stl_algobase.h
  /usr/include/c++/14/bits/stl_bvector.h
  /usr/include/c++/14/bits/stl_construct.h
  /usr/include/c++/14/bits/stl_function.h
+ /usr/include/c++/14/bits/stl_heap.h
  /usr/include/c++/14/bits/stl_iterator.h
  /usr/include/c++/14/bits/stl_iterator_base_funcs.h
  /usr/include/c++/14/bits/stl_iterator_base_types.h
@@ -125,6 +129,7 @@ CMakeFiles/array_tests.dir/array_tests.cpp.o
  /usr/include/c++/14/bits/streambuf_iterator.h
  /usr/include/c++/14/bits/string_view.tcc
  /usr/include/c++/14/bits/stringfwd.h
+ /usr/include/c++/14/bits/uniform_int_dist.h
  /usr/include/c++/14/bits/unique_lock.h
  /usr/include/c++/14/bits/unique_ptr.h
  /usr/include/c++/14/bits/unordered_map.h
@@ -175,6 +180,7 @@ CMakeFiles/array_tests.dir/array_tests.cpp.o
  /usr/include/c++/14/optional
  /usr/include/c++/14/ostream
  /usr/include/c++/14/pstl/execution_defs.h
+ /usr/include/c++/14/pstl/glue_algorithm_defs.h
  /usr/include/c++/14/pstl/glue_memory_defs.h
  /usr/include/c++/14/pstl/pstl_config.h
  /usr/include/c++/14/ratio
@@ -347,28 +353,4 @@ CMakeFiles/array_tests.dir/array_tests.cpp.o
  /usr/lib/linux/uapi/x86/asm/posix_types.h
  /usr/lib/linux/uapi/x86/asm/posix_types_64.h
  /usr/lib/linux/uapi/x86/asm/types.h
-
-array_tests
- /lib/x86_64-linux-gnu/libc.so.6
- /lib/x86_64-linux-gnu/libm.so.6
- /lib/x86_64-linux-gnu/libmvec.so.1
- /lib64/ld-linux-x86-64.so.2
- /usr/lib/x86_64-linux-gnu/Scrt1.o
- /usr/lib/x86_64-linux-gnu/crti.o
- /usr/lib/x86_64-linux-gnu/crtn.o
- /usr/lib/x86_64-linux-gnu/libc.so
- /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
- /usr/lib/x86_64-linux-gnu/libm.so
- /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o
- /usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o
- /usr/lib/gcc/x86_64-linux-gnu/14/libasan.so
- /usr/lib/gcc/x86_64-linux-gnu/14/libasan_preinit.o
- /usr/lib/gcc/x86_64-linux-gnu/14/libgcc.a
- /usr/lib/gcc/x86_64-linux-gnu/14/libgcc_s.so
- /usr/lib/gcc/x86_64-linux-gnu/14/libstdc++.so
- /usr/lib/gcc/x86_64-linux-gnu/14/libubsan.so
- /usr/lib/x86_64-linux-gnu/libc_nonshared.a
- /home/Alishka/cpp/lab_templates/build/CMakeFiles/array_tests.dir/array_tests.cpp.o
- /home/Alishka/cpp/lab_templates/build/lib/libgtest.a
- /home/Alishka/cpp/lab_templates/build/lib/libgtest_main.a
 
