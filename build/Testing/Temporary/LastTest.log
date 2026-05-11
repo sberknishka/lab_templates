@@ -1,8 +1,8 @@
-Start testing: May 11 16:08 MSK
+Start testing: May 11 16:58 MSK
 ----------------------------------------------------------
 Unable to find executable: array_tests_NOT_BUILT
-1/3 Testing: array_tests_NOT_BUILT
-1/3 Test: array_tests_NOT_BUILT
+1/39 Testing: array_tests_NOT_BUILT
+1/39 Test: array_tests_NOT_BUILT
 Command: ""
 Directory: /home/Alishka/cpp/lab_templates/build
 "array_tests_NOT_BUILT" start time: 
@@ -12,29 +12,1012 @@ Output:
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"array_tests_NOT_BUILT" end time: May 11 16:08 MSK
+"array_tests_NOT_BUILT" end time: May 11 16:58 MSK
 "array_tests_NOT_BUILT" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-Unable to find executable: optional_tests_NOT_BUILT
-2/3 Testing: optional_tests_NOT_BUILT
-2/3 Test: optional_tests_NOT_BUILT
-Command: ""
+2/39 Testing: OptionalBasic.DefaultEmpty
+2/39 Test: OptionalBasic.DefaultEmpty
+Command: "/home/Alishka/cpp/lab_templates/build/optional_tests" "--gtest_filter=OptionalBasic.DefaultEmpty" "--gtest_also_run_disabled_tests"
 Directory: /home/Alishka/cpp/lab_templates/build
-"optional_tests_NOT_BUILT" start time: 
+"OptionalBasic.DefaultEmpty" start time: May 11 16:58 MSK
 Output:
 ----------------------------------------------------------
+Running main() from /home/Alishka/cpp/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = OptionalBasic.DefaultEmpty
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OptionalBasic
+[ RUN      ] OptionalBasic.DefaultEmpty
+[       OK ] OptionalBasic.DefaultEmpty (0 ms)
+[----------] 1 test from OptionalBasic (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
 <end of output>
-Test time =   0.00 sec
+Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"optional_tests_NOT_BUILT" end time: May 11 16:08 MSK
-"optional_tests_NOT_BUILT" time elapsed: 00:00:00
+"OptionalBasic.DefaultEmpty" end time: May 11 16:58 MSK
+"OptionalBasic.DefaultEmpty" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/39 Testing: OptionalBasic.ConstructWithValue
+3/39 Test: OptionalBasic.ConstructWithValue
+Command: "/home/Alishka/cpp/lab_templates/build/optional_tests" "--gtest_filter=OptionalBasic.ConstructWithValue" "--gtest_also_run_disabled_tests"
+Directory: /home/Alishka/cpp/lab_templates/build
+"OptionalBasic.ConstructWithValue" start time: May 11 16:58 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/Alishka/cpp/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = OptionalBasic.ConstructWithValue
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OptionalBasic
+[ RUN      ] OptionalBasic.ConstructWithValue
+[       OK ] OptionalBasic.ConstructWithValue (0 ms)
+[----------] 1 test from OptionalBasic (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"OptionalBasic.ConstructWithValue" end time: May 11 16:58 MSK
+"OptionalBasic.ConstructWithValue" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/39 Testing: OptionalBasic.ConstructWithRvalue
+4/39 Test: OptionalBasic.ConstructWithRvalue
+Command: "/home/Alishka/cpp/lab_templates/build/optional_tests" "--gtest_filter=OptionalBasic.ConstructWithRvalue" "--gtest_also_run_disabled_tests"
+Directory: /home/Alishka/cpp/lab_templates/build
+"OptionalBasic.ConstructWithRvalue" start time: May 11 16:58 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/Alishka/cpp/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = OptionalBasic.ConstructWithRvalue
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OptionalBasic
+[ RUN      ] OptionalBasic.ConstructWithRvalue
+[       OK ] OptionalBasic.ConstructWithRvalue (0 ms)
+[----------] 1 test from OptionalBasic (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"OptionalBasic.ConstructWithRvalue" end time: May 11 16:58 MSK
+"OptionalBasic.ConstructWithRvalue" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/39 Testing: OptionalAccess.Value
+5/39 Test: OptionalAccess.Value
+Command: "/home/Alishka/cpp/lab_templates/build/optional_tests" "--gtest_filter=OptionalAccess.Value" "--gtest_also_run_disabled_tests"
+Directory: /home/Alishka/cpp/lab_templates/build
+"OptionalAccess.Value" start time: May 11 16:58 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/Alishka/cpp/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = OptionalAccess.Value
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OptionalAccess
+[ RUN      ] OptionalAccess.Value
+[       OK ] OptionalAccess.Value (0 ms)
+[----------] 1 test from OptionalAccess (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"OptionalAccess.Value" end time: May 11 16:58 MSK
+"OptionalAccess.Value" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/39 Testing: OptionalAccess.ConstValue
+6/39 Test: OptionalAccess.ConstValue
+Command: "/home/Alishka/cpp/lab_templates/build/optional_tests" "--gtest_filter=OptionalAccess.ConstValue" "--gtest_also_run_disabled_tests"
+Directory: /home/Alishka/cpp/lab_templates/build
+"OptionalAccess.ConstValue" start time: May 11 16:58 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/Alishka/cpp/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = OptionalAccess.ConstValue
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OptionalAccess
+[ RUN      ] OptionalAccess.ConstValue
+[       OK ] OptionalAccess.ConstValue (0 ms)
+[----------] 1 test from OptionalAccess (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"OptionalAccess.ConstValue" end time: May 11 16:58 MSK
+"OptionalAccess.ConstValue" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/39 Testing: OptionalAccess.ValueOr
+7/39 Test: OptionalAccess.ValueOr
+Command: "/home/Alishka/cpp/lab_templates/build/optional_tests" "--gtest_filter=OptionalAccess.ValueOr" "--gtest_also_run_disabled_tests"
+Directory: /home/Alishka/cpp/lab_templates/build
+"OptionalAccess.ValueOr" start time: May 11 16:58 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/Alishka/cpp/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = OptionalAccess.ValueOr
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OptionalAccess
+[ RUN      ] OptionalAccess.ValueOr
+[       OK ] OptionalAccess.ValueOr (0 ms)
+[----------] 1 test from OptionalAccess (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"OptionalAccess.ValueOr" end time: May 11 16:58 MSK
+"OptionalAccess.ValueOr" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/39 Testing: OptionalAccess.Dereference
+8/39 Test: OptionalAccess.Dereference
+Command: "/home/Alishka/cpp/lab_templates/build/optional_tests" "--gtest_filter=OptionalAccess.Dereference" "--gtest_also_run_disabled_tests"
+Directory: /home/Alishka/cpp/lab_templates/build
+"OptionalAccess.Dereference" start time: May 11 16:58 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/Alishka/cpp/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = OptionalAccess.Dereference
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OptionalAccess
+[ RUN      ] OptionalAccess.Dereference
+[       OK ] OptionalAccess.Dereference (0 ms)
+[----------] 1 test from OptionalAccess (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"OptionalAccess.Dereference" end time: May 11 16:58 MSK
+"OptionalAccess.Dereference" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/39 Testing: OptionalAccess.Arrow
+9/39 Test: OptionalAccess.Arrow
+Command: "/home/Alishka/cpp/lab_templates/build/optional_tests" "--gtest_filter=OptionalAccess.Arrow" "--gtest_also_run_disabled_tests"
+Directory: /home/Alishka/cpp/lab_templates/build
+"OptionalAccess.Arrow" start time: May 11 16:58 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/Alishka/cpp/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = OptionalAccess.Arrow
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OptionalAccess
+[ RUN      ] OptionalAccess.Arrow
+[       OK ] OptionalAccess.Arrow (0 ms)
+[----------] 1 test from OptionalAccess (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"OptionalAccess.Arrow" end time: May 11 16:58 MSK
+"OptionalAccess.Arrow" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/39 Testing: OptionalAccess.ConstArrow
+10/39 Test: OptionalAccess.ConstArrow
+Command: "/home/Alishka/cpp/lab_templates/build/optional_tests" "--gtest_filter=OptionalAccess.ConstArrow" "--gtest_also_run_disabled_tests"
+Directory: /home/Alishka/cpp/lab_templates/build
+"OptionalAccess.ConstArrow" start time: May 11 16:58 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/Alishka/cpp/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = OptionalAccess.ConstArrow
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OptionalAccess
+[ RUN      ] OptionalAccess.ConstArrow
+[       OK ] OptionalAccess.ConstArrow (0 ms)
+[----------] 1 test from OptionalAccess (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"OptionalAccess.ConstArrow" end time: May 11 16:58 MSK
+"OptionalAccess.ConstArrow" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/39 Testing: OptionalCopy.CopyConstructorEmpty
+11/39 Test: OptionalCopy.CopyConstructorEmpty
+Command: "/home/Alishka/cpp/lab_templates/build/optional_tests" "--gtest_filter=OptionalCopy.CopyConstructorEmpty" "--gtest_also_run_disabled_tests"
+Directory: /home/Alishka/cpp/lab_templates/build
+"OptionalCopy.CopyConstructorEmpty" start time: May 11 16:58 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/Alishka/cpp/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = OptionalCopy.CopyConstructorEmpty
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OptionalCopy
+[ RUN      ] OptionalCopy.CopyConstructorEmpty
+[       OK ] OptionalCopy.CopyConstructorEmpty (0 ms)
+[----------] 1 test from OptionalCopy (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"OptionalCopy.CopyConstructorEmpty" end time: May 11 16:58 MSK
+"OptionalCopy.CopyConstructorEmpty" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/39 Testing: OptionalCopy.CopyConstructorFilled
+12/39 Test: OptionalCopy.CopyConstructorFilled
+Command: "/home/Alishka/cpp/lab_templates/build/optional_tests" "--gtest_filter=OptionalCopy.CopyConstructorFilled" "--gtest_also_run_disabled_tests"
+Directory: /home/Alishka/cpp/lab_templates/build
+"OptionalCopy.CopyConstructorFilled" start time: May 11 16:58 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/Alishka/cpp/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = OptionalCopy.CopyConstructorFilled
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OptionalCopy
+[ RUN      ] OptionalCopy.CopyConstructorFilled
+[       OK ] OptionalCopy.CopyConstructorFilled (0 ms)
+[----------] 1 test from OptionalCopy (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"OptionalCopy.CopyConstructorFilled" end time: May 11 16:58 MSK
+"OptionalCopy.CopyConstructorFilled" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/39 Testing: OptionalCopy.CopyAssignmentFilledToEmpty
+13/39 Test: OptionalCopy.CopyAssignmentFilledToEmpty
+Command: "/home/Alishka/cpp/lab_templates/build/optional_tests" "--gtest_filter=OptionalCopy.CopyAssignmentFilledToEmpty" "--gtest_also_run_disabled_tests"
+Directory: /home/Alishka/cpp/lab_templates/build
+"OptionalCopy.CopyAssignmentFilledToEmpty" start time: May 11 16:58 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/Alishka/cpp/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = OptionalCopy.CopyAssignmentFilledToEmpty
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OptionalCopy
+[ RUN      ] OptionalCopy.CopyAssignmentFilledToEmpty
+[       OK ] OptionalCopy.CopyAssignmentFilledToEmpty (0 ms)
+[----------] 1 test from OptionalCopy (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"OptionalCopy.CopyAssignmentFilledToEmpty" end time: May 11 16:58 MSK
+"OptionalCopy.CopyAssignmentFilledToEmpty" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/39 Testing: OptionalCopy.CopyAssignmentEmptyToFilled
+14/39 Test: OptionalCopy.CopyAssignmentEmptyToFilled
+Command: "/home/Alishka/cpp/lab_templates/build/optional_tests" "--gtest_filter=OptionalCopy.CopyAssignmentEmptyToFilled" "--gtest_also_run_disabled_tests"
+Directory: /home/Alishka/cpp/lab_templates/build
+"OptionalCopy.CopyAssignmentEmptyToFilled" start time: May 11 16:58 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/Alishka/cpp/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = OptionalCopy.CopyAssignmentEmptyToFilled
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OptionalCopy
+[ RUN      ] OptionalCopy.CopyAssignmentEmptyToFilled
+[       OK ] OptionalCopy.CopyAssignmentEmptyToFilled (0 ms)
+[----------] 1 test from OptionalCopy (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"OptionalCopy.CopyAssignmentEmptyToFilled" end time: May 11 16:58 MSK
+"OptionalCopy.CopyAssignmentEmptyToFilled" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/39 Testing: OptionalCopy.CopyAssignmentFilledToFilled
+15/39 Test: OptionalCopy.CopyAssignmentFilledToFilled
+Command: "/home/Alishka/cpp/lab_templates/build/optional_tests" "--gtest_filter=OptionalCopy.CopyAssignmentFilledToFilled" "--gtest_also_run_disabled_tests"
+Directory: /home/Alishka/cpp/lab_templates/build
+"OptionalCopy.CopyAssignmentFilledToFilled" start time: May 11 16:58 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/Alishka/cpp/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = OptionalCopy.CopyAssignmentFilledToFilled
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OptionalCopy
+[ RUN      ] OptionalCopy.CopyAssignmentFilledToFilled
+[       OK ] OptionalCopy.CopyAssignmentFilledToFilled (0 ms)
+[----------] 1 test from OptionalCopy (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"OptionalCopy.CopyAssignmentFilledToFilled" end time: May 11 16:58 MSK
+"OptionalCopy.CopyAssignmentFilledToFilled" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/39 Testing: OptionalCopy.SelfAssignment
+16/39 Test: OptionalCopy.SelfAssignment
+Command: "/home/Alishka/cpp/lab_templates/build/optional_tests" "--gtest_filter=OptionalCopy.SelfAssignment" "--gtest_also_run_disabled_tests"
+Directory: /home/Alishka/cpp/lab_templates/build
+"OptionalCopy.SelfAssignment" start time: May 11 16:58 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/Alishka/cpp/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = OptionalCopy.SelfAssignment
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OptionalCopy
+[ RUN      ] OptionalCopy.SelfAssignment
+[       OK ] OptionalCopy.SelfAssignment (0 ms)
+[----------] 1 test from OptionalCopy (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"OptionalCopy.SelfAssignment" end time: May 11 16:58 MSK
+"OptionalCopy.SelfAssignment" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/39 Testing: OptionalMove.MoveConstructor
+17/39 Test: OptionalMove.MoveConstructor
+Command: "/home/Alishka/cpp/lab_templates/build/optional_tests" "--gtest_filter=OptionalMove.MoveConstructor" "--gtest_also_run_disabled_tests"
+Directory: /home/Alishka/cpp/lab_templates/build
+"OptionalMove.MoveConstructor" start time: May 11 16:58 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/Alishka/cpp/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = OptionalMove.MoveConstructor
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OptionalMove
+[ RUN      ] OptionalMove.MoveConstructor
+[       OK ] OptionalMove.MoveConstructor (0 ms)
+[----------] 1 test from OptionalMove (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"OptionalMove.MoveConstructor" end time: May 11 16:58 MSK
+"OptionalMove.MoveConstructor" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/39 Testing: OptionalMove.MoveAssignment
+18/39 Test: OptionalMove.MoveAssignment
+Command: "/home/Alishka/cpp/lab_templates/build/optional_tests" "--gtest_filter=OptionalMove.MoveAssignment" "--gtest_also_run_disabled_tests"
+Directory: /home/Alishka/cpp/lab_templates/build
+"OptionalMove.MoveAssignment" start time: May 11 16:58 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/Alishka/cpp/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = OptionalMove.MoveAssignment
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OptionalMove
+[ RUN      ] OptionalMove.MoveAssignment
+[       OK ] OptionalMove.MoveAssignment (0 ms)
+[----------] 1 test from OptionalMove (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"OptionalMove.MoveAssignment" end time: May 11 16:58 MSK
+"OptionalMove.MoveAssignment" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/39 Testing: OptionalAssignValue.FromLvalue
+19/39 Test: OptionalAssignValue.FromLvalue
+Command: "/home/Alishka/cpp/lab_templates/build/optional_tests" "--gtest_filter=OptionalAssignValue.FromLvalue" "--gtest_also_run_disabled_tests"
+Directory: /home/Alishka/cpp/lab_templates/build
+"OptionalAssignValue.FromLvalue" start time: May 11 16:58 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/Alishka/cpp/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = OptionalAssignValue.FromLvalue
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OptionalAssignValue
+[ RUN      ] OptionalAssignValue.FromLvalue
+[       OK ] OptionalAssignValue.FromLvalue (0 ms)
+[----------] 1 test from OptionalAssignValue (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"OptionalAssignValue.FromLvalue" end time: May 11 16:58 MSK
+"OptionalAssignValue.FromLvalue" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/39 Testing: OptionalAssignValue.FromRvalue
+20/39 Test: OptionalAssignValue.FromRvalue
+Command: "/home/Alishka/cpp/lab_templates/build/optional_tests" "--gtest_filter=OptionalAssignValue.FromRvalue" "--gtest_also_run_disabled_tests"
+Directory: /home/Alishka/cpp/lab_templates/build
+"OptionalAssignValue.FromRvalue" start time: May 11 16:58 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/Alishka/cpp/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = OptionalAssignValue.FromRvalue
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OptionalAssignValue
+[ RUN      ] OptionalAssignValue.FromRvalue
+[       OK ] OptionalAssignValue.FromRvalue (0 ms)
+[----------] 1 test from OptionalAssignValue (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"OptionalAssignValue.FromRvalue" end time: May 11 16:58 MSK
+"OptionalAssignValue.FromRvalue" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/39 Testing: OptionalAssignValue.OverwriteExisting
+21/39 Test: OptionalAssignValue.OverwriteExisting
+Command: "/home/Alishka/cpp/lab_templates/build/optional_tests" "--gtest_filter=OptionalAssignValue.OverwriteExisting" "--gtest_also_run_disabled_tests"
+Directory: /home/Alishka/cpp/lab_templates/build
+"OptionalAssignValue.OverwriteExisting" start time: May 11 16:58 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/Alishka/cpp/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = OptionalAssignValue.OverwriteExisting
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OptionalAssignValue
+[ RUN      ] OptionalAssignValue.OverwriteExisting
+[       OK ] OptionalAssignValue.OverwriteExisting (0 ms)
+[----------] 1 test from OptionalAssignValue (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"OptionalAssignValue.OverwriteExisting" end time: May 11 16:58 MSK
+"OptionalAssignValue.OverwriteExisting" time elapsed: 00:00:00
+----------------------------------------------------------
+
+22/39 Testing: OptionalModifiers.Reset
+22/39 Test: OptionalModifiers.Reset
+Command: "/home/Alishka/cpp/lab_templates/build/optional_tests" "--gtest_filter=OptionalModifiers.Reset" "--gtest_also_run_disabled_tests"
+Directory: /home/Alishka/cpp/lab_templates/build
+"OptionalModifiers.Reset" start time: May 11 16:58 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/Alishka/cpp/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = OptionalModifiers.Reset
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OptionalModifiers
+[ RUN      ] OptionalModifiers.Reset
+[       OK ] OptionalModifiers.Reset (0 ms)
+[----------] 1 test from OptionalModifiers (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"OptionalModifiers.Reset" end time: May 11 16:58 MSK
+"OptionalModifiers.Reset" time elapsed: 00:00:00
+----------------------------------------------------------
+
+23/39 Testing: OptionalModifiers.ResetEmpty
+23/39 Test: OptionalModifiers.ResetEmpty
+Command: "/home/Alishka/cpp/lab_templates/build/optional_tests" "--gtest_filter=OptionalModifiers.ResetEmpty" "--gtest_also_run_disabled_tests"
+Directory: /home/Alishka/cpp/lab_templates/build
+"OptionalModifiers.ResetEmpty" start time: May 11 16:58 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/Alishka/cpp/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = OptionalModifiers.ResetEmpty
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OptionalModifiers
+[ RUN      ] OptionalModifiers.ResetEmpty
+[       OK ] OptionalModifiers.ResetEmpty (0 ms)
+[----------] 1 test from OptionalModifiers (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"OptionalModifiers.ResetEmpty" end time: May 11 16:58 MSK
+"OptionalModifiers.ResetEmpty" time elapsed: 00:00:00
+----------------------------------------------------------
+
+24/39 Testing: OptionalModifiers.Emplace
+24/39 Test: OptionalModifiers.Emplace
+Command: "/home/Alishka/cpp/lab_templates/build/optional_tests" "--gtest_filter=OptionalModifiers.Emplace" "--gtest_also_run_disabled_tests"
+Directory: /home/Alishka/cpp/lab_templates/build
+"OptionalModifiers.Emplace" start time: May 11 16:58 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/Alishka/cpp/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = OptionalModifiers.Emplace
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OptionalModifiers
+[ RUN      ] OptionalModifiers.Emplace
+[       OK ] OptionalModifiers.Emplace (0 ms)
+[----------] 1 test from OptionalModifiers (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"OptionalModifiers.Emplace" end time: May 11 16:58 MSK
+"OptionalModifiers.Emplace" time elapsed: 00:00:00
+----------------------------------------------------------
+
+25/39 Testing: OptionalModifiers.EmplaceOverwrite
+25/39 Test: OptionalModifiers.EmplaceOverwrite
+Command: "/home/Alishka/cpp/lab_templates/build/optional_tests" "--gtest_filter=OptionalModifiers.EmplaceOverwrite" "--gtest_also_run_disabled_tests"
+Directory: /home/Alishka/cpp/lab_templates/build
+"OptionalModifiers.EmplaceOverwrite" start time: May 11 16:58 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/Alishka/cpp/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = OptionalModifiers.EmplaceOverwrite
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OptionalModifiers
+[ RUN      ] OptionalModifiers.EmplaceOverwrite
+[       OK ] OptionalModifiers.EmplaceOverwrite (0 ms)
+[----------] 1 test from OptionalModifiers (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"OptionalModifiers.EmplaceOverwrite" end time: May 11 16:58 MSK
+"OptionalModifiers.EmplaceOverwrite" time elapsed: 00:00:00
+----------------------------------------------------------
+
+26/39 Testing: OptionalModifiers.Swap
+26/39 Test: OptionalModifiers.Swap
+Command: "/home/Alishka/cpp/lab_templates/build/optional_tests" "--gtest_filter=OptionalModifiers.Swap" "--gtest_also_run_disabled_tests"
+Directory: /home/Alishka/cpp/lab_templates/build
+"OptionalModifiers.Swap" start time: May 11 16:58 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/Alishka/cpp/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = OptionalModifiers.Swap
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OptionalModifiers
+[ RUN      ] OptionalModifiers.Swap
+[       OK ] OptionalModifiers.Swap (0 ms)
+[----------] 1 test from OptionalModifiers (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"OptionalModifiers.Swap" end time: May 11 16:58 MSK
+"OptionalModifiers.Swap" time elapsed: 00:00:00
+----------------------------------------------------------
+
+27/39 Testing: OptionalModifiers.SwapBothFilled
+27/39 Test: OptionalModifiers.SwapBothFilled
+Command: "/home/Alishka/cpp/lab_templates/build/optional_tests" "--gtest_filter=OptionalModifiers.SwapBothFilled" "--gtest_also_run_disabled_tests"
+Directory: /home/Alishka/cpp/lab_templates/build
+"OptionalModifiers.SwapBothFilled" start time: May 11 16:58 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/Alishka/cpp/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = OptionalModifiers.SwapBothFilled
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OptionalModifiers
+[ RUN      ] OptionalModifiers.SwapBothFilled
+[       OK ] OptionalModifiers.SwapBothFilled (0 ms)
+[----------] 1 test from OptionalModifiers (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"OptionalModifiers.SwapBothFilled" end time: May 11 16:58 MSK
+"OptionalModifiers.SwapBothFilled" time elapsed: 00:00:00
+----------------------------------------------------------
+
+28/39 Testing: OptionalModifiers.SwapBothEmpty
+28/39 Test: OptionalModifiers.SwapBothEmpty
+Command: "/home/Alishka/cpp/lab_templates/build/optional_tests" "--gtest_filter=OptionalModifiers.SwapBothEmpty" "--gtest_also_run_disabled_tests"
+Directory: /home/Alishka/cpp/lab_templates/build
+"OptionalModifiers.SwapBothEmpty" start time: May 11 16:58 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/Alishka/cpp/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = OptionalModifiers.SwapBothEmpty
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OptionalModifiers
+[ RUN      ] OptionalModifiers.SwapBothEmpty
+[       OK ] OptionalModifiers.SwapBothEmpty (0 ms)
+[----------] 1 test from OptionalModifiers (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"OptionalModifiers.SwapBothEmpty" end time: May 11 16:58 MSK
+"OptionalModifiers.SwapBothEmpty" time elapsed: 00:00:00
+----------------------------------------------------------
+
+29/39 Testing: OptionalComparison.BothEmpty
+29/39 Test: OptionalComparison.BothEmpty
+Command: "/home/Alishka/cpp/lab_templates/build/optional_tests" "--gtest_filter=OptionalComparison.BothEmpty" "--gtest_also_run_disabled_tests"
+Directory: /home/Alishka/cpp/lab_templates/build
+"OptionalComparison.BothEmpty" start time: May 11 16:58 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/Alishka/cpp/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = OptionalComparison.BothEmpty
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OptionalComparison
+[ RUN      ] OptionalComparison.BothEmpty
+[       OK ] OptionalComparison.BothEmpty (0 ms)
+[----------] 1 test from OptionalComparison (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"OptionalComparison.BothEmpty" end time: May 11 16:58 MSK
+"OptionalComparison.BothEmpty" time elapsed: 00:00:00
+----------------------------------------------------------
+
+30/39 Testing: OptionalComparison.BothFilledEqual
+30/39 Test: OptionalComparison.BothFilledEqual
+Command: "/home/Alishka/cpp/lab_templates/build/optional_tests" "--gtest_filter=OptionalComparison.BothFilledEqual" "--gtest_also_run_disabled_tests"
+Directory: /home/Alishka/cpp/lab_templates/build
+"OptionalComparison.BothFilledEqual" start time: May 11 16:58 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/Alishka/cpp/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = OptionalComparison.BothFilledEqual
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OptionalComparison
+[ RUN      ] OptionalComparison.BothFilledEqual
+[       OK ] OptionalComparison.BothFilledEqual (0 ms)
+[----------] 1 test from OptionalComparison (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"OptionalComparison.BothFilledEqual" end time: May 11 16:58 MSK
+"OptionalComparison.BothFilledEqual" time elapsed: 00:00:00
+----------------------------------------------------------
+
+31/39 Testing: OptionalComparison.BothFilledNotEqual
+31/39 Test: OptionalComparison.BothFilledNotEqual
+Command: "/home/Alishka/cpp/lab_templates/build/optional_tests" "--gtest_filter=OptionalComparison.BothFilledNotEqual" "--gtest_also_run_disabled_tests"
+Directory: /home/Alishka/cpp/lab_templates/build
+"OptionalComparison.BothFilledNotEqual" start time: May 11 16:58 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/Alishka/cpp/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = OptionalComparison.BothFilledNotEqual
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OptionalComparison
+[ RUN      ] OptionalComparison.BothFilledNotEqual
+[       OK ] OptionalComparison.BothFilledNotEqual (0 ms)
+[----------] 1 test from OptionalComparison (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"OptionalComparison.BothFilledNotEqual" end time: May 11 16:58 MSK
+"OptionalComparison.BothFilledNotEqual" time elapsed: 00:00:00
+----------------------------------------------------------
+
+32/39 Testing: OptionalComparison.OneEmptyOneFilled
+32/39 Test: OptionalComparison.OneEmptyOneFilled
+Command: "/home/Alishka/cpp/lab_templates/build/optional_tests" "--gtest_filter=OptionalComparison.OneEmptyOneFilled" "--gtest_also_run_disabled_tests"
+Directory: /home/Alishka/cpp/lab_templates/build
+"OptionalComparison.OneEmptyOneFilled" start time: May 11 16:58 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/Alishka/cpp/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = OptionalComparison.OneEmptyOneFilled
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OptionalComparison
+[ RUN      ] OptionalComparison.OneEmptyOneFilled
+[       OK ] OptionalComparison.OneEmptyOneFilled (0 ms)
+[----------] 1 test from OptionalComparison (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"OptionalComparison.OneEmptyOneFilled" end time: May 11 16:58 MSK
+"OptionalComparison.OneEmptyOneFilled" time elapsed: 00:00:00
+----------------------------------------------------------
+
+33/39 Testing: TrackedTest.OptionalDestructor
+33/39 Test: TrackedTest.OptionalDestructor
+Command: "/home/Alishka/cpp/lab_templates/build/optional_tests" "--gtest_filter=TrackedTest.OptionalDestructor" "--gtest_also_run_disabled_tests"
+Directory: /home/Alishka/cpp/lab_templates/build
+"TrackedTest.OptionalDestructor" start time: May 11 16:58 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/Alishka/cpp/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TrackedTest.OptionalDestructor
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TrackedTest
+[ RUN      ] TrackedTest.OptionalDestructor
+[       OK ] TrackedTest.OptionalDestructor (0 ms)
+[----------] 1 test from TrackedTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"TrackedTest.OptionalDestructor" end time: May 11 16:58 MSK
+"TrackedTest.OptionalDestructor" time elapsed: 00:00:00
+----------------------------------------------------------
+
+34/39 Testing: TrackedTest.OptionalResetDestroys
+34/39 Test: TrackedTest.OptionalResetDestroys
+Command: "/home/Alishka/cpp/lab_templates/build/optional_tests" "--gtest_filter=TrackedTest.OptionalResetDestroys" "--gtest_also_run_disabled_tests"
+Directory: /home/Alishka/cpp/lab_templates/build
+"TrackedTest.OptionalResetDestroys" start time: May 11 16:58 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/Alishka/cpp/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TrackedTest.OptionalResetDestroys
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TrackedTest
+[ RUN      ] TrackedTest.OptionalResetDestroys
+[       OK ] TrackedTest.OptionalResetDestroys (0 ms)
+[----------] 1 test from TrackedTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"TrackedTest.OptionalResetDestroys" end time: May 11 16:58 MSK
+"TrackedTest.OptionalResetDestroys" time elapsed: 00:00:00
+----------------------------------------------------------
+
+35/39 Testing: TrackedTest.OptionalEmplaceDestroysPrevious
+35/39 Test: TrackedTest.OptionalEmplaceDestroysPrevious
+Command: "/home/Alishka/cpp/lab_templates/build/optional_tests" "--gtest_filter=TrackedTest.OptionalEmplaceDestroysPrevious" "--gtest_also_run_disabled_tests"
+Directory: /home/Alishka/cpp/lab_templates/build
+"TrackedTest.OptionalEmplaceDestroysPrevious" start time: May 11 16:58 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/Alishka/cpp/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TrackedTest.OptionalEmplaceDestroysPrevious
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TrackedTest
+[ RUN      ] TrackedTest.OptionalEmplaceDestroysPrevious
+[       OK ] TrackedTest.OptionalEmplaceDestroysPrevious (0 ms)
+[----------] 1 test from TrackedTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"TrackedTest.OptionalEmplaceDestroysPrevious" end time: May 11 16:58 MSK
+"TrackedTest.OptionalEmplaceDestroysPrevious" time elapsed: 00:00:00
+----------------------------------------------------------
+
+36/39 Testing: TrackedTest.OptionalCopyNoLeak
+36/39 Test: TrackedTest.OptionalCopyNoLeak
+Command: "/home/Alishka/cpp/lab_templates/build/optional_tests" "--gtest_filter=TrackedTest.OptionalCopyNoLeak" "--gtest_also_run_disabled_tests"
+Directory: /home/Alishka/cpp/lab_templates/build
+"TrackedTest.OptionalCopyNoLeak" start time: May 11 16:58 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/Alishka/cpp/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TrackedTest.OptionalCopyNoLeak
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TrackedTest
+[ RUN      ] TrackedTest.OptionalCopyNoLeak
+[       OK ] TrackedTest.OptionalCopyNoLeak (0 ms)
+[----------] 1 test from TrackedTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"TrackedTest.OptionalCopyNoLeak" end time: May 11 16:58 MSK
+"TrackedTest.OptionalCopyNoLeak" time elapsed: 00:00:00
+----------------------------------------------------------
+
+37/39 Testing: TrackedTest.OptionalMoveNoLeak
+37/39 Test: TrackedTest.OptionalMoveNoLeak
+Command: "/home/Alishka/cpp/lab_templates/build/optional_tests" "--gtest_filter=TrackedTest.OptionalMoveNoLeak" "--gtest_also_run_disabled_tests"
+Directory: /home/Alishka/cpp/lab_templates/build
+"TrackedTest.OptionalMoveNoLeak" start time: May 11 16:58 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/Alishka/cpp/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TrackedTest.OptionalMoveNoLeak
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TrackedTest
+[ RUN      ] TrackedTest.OptionalMoveNoLeak
+[       OK ] TrackedTest.OptionalMoveNoLeak (0 ms)
+[----------] 1 test from TrackedTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"TrackedTest.OptionalMoveNoLeak" end time: May 11 16:58 MSK
+"TrackedTest.OptionalMoveNoLeak" time elapsed: 00:00:00
+----------------------------------------------------------
+
+38/39 Testing: TrackedTest.OptionalAssignmentNoLeak
+38/39 Test: TrackedTest.OptionalAssignmentNoLeak
+Command: "/home/Alishka/cpp/lab_templates/build/optional_tests" "--gtest_filter=TrackedTest.OptionalAssignmentNoLeak" "--gtest_also_run_disabled_tests"
+Directory: /home/Alishka/cpp/lab_templates/build
+"TrackedTest.OptionalAssignmentNoLeak" start time: May 11 16:58 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/Alishka/cpp/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TrackedTest.OptionalAssignmentNoLeak
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TrackedTest
+[ RUN      ] TrackedTest.OptionalAssignmentNoLeak
+[       OK ] TrackedTest.OptionalAssignmentNoLeak (0 ms)
+[----------] 1 test from TrackedTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"TrackedTest.OptionalAssignmentNoLeak" end time: May 11 16:58 MSK
+"TrackedTest.OptionalAssignmentNoLeak" time elapsed: 00:00:00
 ----------------------------------------------------------
 
 Unable to find executable: unique_ptr_tests_NOT_BUILT
-3/3 Testing: unique_ptr_tests_NOT_BUILT
-3/3 Test: unique_ptr_tests_NOT_BUILT
+39/39 Testing: unique_ptr_tests_NOT_BUILT
+39/39 Test: unique_ptr_tests_NOT_BUILT
 Command: ""
 Directory: /home/Alishka/cpp/lab_templates/build
 "unique_ptr_tests_NOT_BUILT" start time: 
@@ -44,8 +1027,8 @@ Output:
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"unique_ptr_tests_NOT_BUILT" end time: May 11 16:08 MSK
+"unique_ptr_tests_NOT_BUILT" end time: May 11 16:58 MSK
 "unique_ptr_tests_NOT_BUILT" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: May 11 16:08 MSK
+End testing: May 11 16:58 MSK

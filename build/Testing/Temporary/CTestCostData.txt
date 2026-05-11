@@ -1,7 +1,43 @@
 array_tests_NOT_BUILT 0 0
 optional_tests_NOT_BUILT 0 0
 unique_ptr_tests_NOT_BUILT 0 0
+OptionalBasic.DefaultEmpty 1 0.0233524
+OptionalBasic.ConstructWithValue 1 0.0227596
+OptionalBasic.ConstructWithRvalue 1 0.0225461
+OptionalAccess.Value 1 0.023397
+OptionalAccess.ConstValue 1 0.0227276
+OptionalAccess.ValueOr 1 0.0228935
+OptionalAccess.Dereference 1 0.0228589
+OptionalAccess.Arrow 1 0.0230194
+OptionalAccess.ConstArrow 1 0.0226183
+OptionalCopy.CopyConstructorEmpty 1 0.0239444
+OptionalCopy.CopyConstructorFilled 1 0.022559
+OptionalCopy.CopyAssignmentFilledToEmpty 1 0.0235265
+OptionalCopy.CopyAssignmentEmptyToFilled 1 0.0228955
+OptionalCopy.CopyAssignmentFilledToFilled 1 0.0233652
+OptionalCopy.SelfAssignment 1 0.0232887
+OptionalMove.MoveConstructor 1 0.0241161
+OptionalMove.MoveAssignment 1 0.0232531
+OptionalAssignValue.FromLvalue 1 0.0242311
+OptionalAssignValue.FromRvalue 1 0.0230102
+OptionalAssignValue.OverwriteExisting 1 0.0239686
+OptionalModifiers.Reset 1 0.0238853
+OptionalModifiers.ResetEmpty 1 0.0247195
+OptionalModifiers.Emplace 1 0.0236278
+OptionalModifiers.EmplaceOverwrite 1 0.0233989
+OptionalModifiers.Swap 1 0.0234899
+OptionalModifiers.SwapBothFilled 1 0.0231799
+OptionalModifiers.SwapBothEmpty 1 0.0237232
+OptionalComparison.BothEmpty 1 0.023263
+OptionalComparison.BothFilledEqual 1 0.0237366
+OptionalComparison.BothFilledNotEqual 1 0.0229698
+OptionalComparison.OneEmptyOneFilled 1 0.0238277
+TrackedTest.OptionalDestructor 1 0.0234461
+TrackedTest.OptionalResetDestroys 1 0.0235651
+TrackedTest.OptionalEmplaceDestroysPrevious 1 0.023873
+TrackedTest.OptionalCopyNoLeak 1 0.0232977
+TrackedTest.OptionalMoveNoLeak 1 0.0266556
+TrackedTest.OptionalAssignmentNoLeak 1 0.0247372
 ---
 array_tests_NOT_BUILT
-optional_tests_NOT_BUILT
 unique_ptr_tests_NOT_BUILT

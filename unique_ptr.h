@@ -114,6 +114,10 @@ private:
 template <typename T, typename... Args>
 UniquePtr<T> make_unique(Args&&... args);
 
+// ======================== TODO ========================
+
+// ======================== Constructors ========================
+
 template <typename T, typename Deleter>
 UniquePtr<T, Deleter>::UniquePtr() : ptr_(nullptr), deleter_() {}
 
@@ -127,6 +131,8 @@ UniquePtr<T, Deleter>::UniquePtr(T* ptr, const Deleter& deleter)
 template <typename T, typename Deleter>
 UniquePtr<T, Deleter>::UniquePtr(T* ptr, Deleter&& deleter)
     : ptr_(ptr), deleter_(std::move(deleter)) {}
+
+// =================== Move ====================================
 
 template <typename T, typename Deleter>
 UniquePtr<T, Deleter>::UniquePtr(UniquePtr&& other)
@@ -145,12 +151,14 @@ UniquePtr<T, Deleter>& UniquePtr<T, Deleter>::operator=(UniquePtr&& other) {
     return *this;
 }
 
+// =================== Destructor ==============================
+
 template <typename T, typename Deleter>
 UniquePtr<T, Deleter>::~UniquePtr() {
-    if (ptr_) {
-        deleter_(ptr_);
-    }
+    reset();
 }
+
+// =================== Observers ===============================
 
 template <typename T, typename Deleter>
 T* UniquePtr<T, Deleter>::get() {
@@ -197,29 +205,37 @@ const Deleter& UniquePtr<T, Deleter>::get_deleter() const {
     return deleter_;
 }
 
+// =================== Modifiers ===============================
+
 template <typename T, typename Deleter>
 T* UniquePtr<T, Deleter>::release() {
-    T* temp = ptr_;
+    T* tmp = ptr_;
     ptr_ = nullptr;
-    return temp;
+    return tmp;
 }
 
 template <typename T, typename Deleter>
 void UniquePtr<T, Deleter>::reset(T* ptr) {
-    if (ptr_) {
-        deleter_(ptr_);
+    if (ptr_ != ptr) {
+        if (ptr_) {
+            deleter_(ptr_);
+        }
+        ptr_ = ptr;
     }
-    ptr_ = ptr;
 }
 
 template <typename T, typename Deleter>
 void UniquePtr<T, Deleter>::swap(UniquePtr& other) {
-    using std::swap;
-    swap(ptr_, other.ptr_);
-    swap(deleter_, other.deleter_);
+    std::swap(ptr_, other.ptr_);
+    std::swap(deleter_, other.deleter_);
 }
 
-// Array specialization implementation
+// =====================================================================
+// Array specialization
+// =====================================================================
+
+// ======================== Constructors ========================
+
 template <typename T, typename Deleter>
 UniquePtr<T[], Deleter>::UniquePtr() : ptr_(nullptr), deleter_() {}
 
@@ -233,6 +249,8 @@ UniquePtr<T[], Deleter>::UniquePtr(T* ptr, const Deleter& deleter)
 template <typename T, typename Deleter>
 UniquePtr<T[], Deleter>::UniquePtr(T* ptr, Deleter&& deleter)
     : ptr_(ptr), deleter_(std::move(deleter)) {}
+
+// =================== Move ====================================
 
 template <typename T, typename Deleter>
 UniquePtr<T[], Deleter>::UniquePtr(UniquePtr&& other)
@@ -251,12 +269,14 @@ UniquePtr<T[], Deleter>& UniquePtr<T[], Deleter>::operator=(UniquePtr&& other) {
     return *this;
 }
 
+// =================== Destructor ==============================
+
 template <typename T, typename Deleter>
 UniquePtr<T[], Deleter>::~UniquePtr() {
-    if (ptr_) {
-        deleter_(ptr_);
-    }
+    reset();
 }
+
+// =================== Observers ===============================
 
 template <typename T, typename Deleter>
 T* UniquePtr<T[], Deleter>::get() {
@@ -293,29 +313,33 @@ const Deleter& UniquePtr<T[], Deleter>::get_deleter() const {
     return deleter_;
 }
 
+// =================== Modifiers ===============================
+
 template <typename T, typename Deleter>
 T* UniquePtr<T[], Deleter>::release() {
-    T* temp = ptr_;
+    T* tmp = ptr_;
     ptr_ = nullptr;
-    return temp;
+    return tmp;
 }
 
 template <typename T, typename Deleter>
 void UniquePtr<T[], Deleter>::reset(T* ptr) {
-    if (ptr_) {
-        deleter_(ptr_);
+    if (ptr_ != ptr) {
+        if (ptr_) {
+            deleter_(ptr_);
+        }
+        ptr_ = ptr;
     }
-    ptr_ = ptr;
 }
 
 template <typename T, typename Deleter>
 void UniquePtr<T[], Deleter>::swap(UniquePtr& other) {
-    using std::swap;
-    swap(ptr_, other.ptr_);
-    swap(deleter_, other.deleter_);
+    std::swap(ptr_, other.ptr_);
+    std::swap(deleter_, other.deleter_);
 }
 
-// make_unique implementation
+// =================== make_unique ===============================
+
 template <typename T, typename... Args>
 UniquePtr<T> make_unique(Args&&... args) {
     return UniquePtr<T>(new T(std::forward<Args>(args)...));
