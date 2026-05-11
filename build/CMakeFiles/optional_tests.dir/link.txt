@@ -1,1 +1,0 @@
-/usr/bin/c++ -fsanitize=address,undefined -Wl,--dependency-file=CMakeFiles/optional_tests.dir/link.d CMakeFiles/optional_tests.dir/optional_tests.cpp.o -o optional_tests  lib/libgtest_main.a lib/libgtest.a

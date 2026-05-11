@@ -1,1 +1,0 @@
-/usr/bin/c++ -fsanitize=address,undefined -Wl,--dependency-file=CMakeFiles/array_tests.dir/link.d CMakeFiles/array_tests.dir/array_tests.cpp.o -o array_tests  lib/libgtest_main.a lib/libgtest.a
