@@ -277,10 +277,5 @@ CMakeFiles/array_tests.dir/array_tests.cpp.o: \
  /home/Alishka/cpp/lab_templates/build/_deps/googletest-src/googletest/include/gtest/gtest-typed-test.h \
  /home/Alishka/cpp/lab_templates/build/_deps/googletest-src/googletest/include/gtest/gtest_pred_impl.h \
  /home/Alishka/cpp/lab_templates/build/_deps/googletest-src/googletest/include/gtest/gtest_prod.h \
- /home/Alishka/cpp/lab_templates/array.h /usr/include/c++/14/algorithm \
- /usr/include/c++/14/bits/stl_algo.h \
- /usr/include/c++/14/bits/algorithmfwd.h \
- /usr/include/c++/14/bits/stl_heap.h \
- /usr/include/c++/14/bits/uniform_int_dist.h \
- /usr/include/c++/14/pstl/glue_algorithm_defs.h \
+ /home/Alishka/cpp/lab_templates/array.h \
  /home/Alishka/cpp/lab_templates/tracked.h

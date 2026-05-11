@@ -60,9 +60,7 @@ private:
     bool has_value_ = false;
 };
 
-// ======================== TODO ========================
 
-// ======================== TODO ========================
 
 template <typename T>
 Optional<T>::Optional()
@@ -80,7 +78,7 @@ Optional<T>::Optional(T&& value)
     new (storage_) T(std::move(value));
 }
 
-// =================== Copy and Move ===========================
+
 
 template <typename T>
 Optional<T>::Optional(const Optional& other)
@@ -150,14 +148,13 @@ Optional<T>& Optional<T>::operator=(T&& value) {
     return *this;
 }
 
-// =================== Destructor ==============================
 
 template <typename T>
 Optional<T>::~Optional() {
     reset();
 }
 
-// =================== Observers ===============================
+
 
 template <typename T>
 bool Optional<T>::has_value() const {
@@ -204,7 +201,7 @@ const T* Optional<T>::operator->() const {
     return &value();
 }
 
-// =================== Modifiers ===============================
+
 
 template <typename T>
 template <typename... Args>
@@ -240,7 +237,7 @@ void Optional<T>::swap(Optional& other) {
     }
 }
 
-// =================== Comparison ==============================
+
 
 template <typename T>
 bool Optional<T>::operator==(const Optional& rhs) const {

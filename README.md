@@ -4,7 +4,7 @@
 
 | Field     | Value               |
 |-----------|---------------------|
-| **Name**  | Щащаев  Али         |
+| **Name**  | Щащаев Али          |
 | **Group** | РПОиПИИ             |
 
 > **Replace the data above with your own!**

@@ -347,6 +347,51 @@ CMakeFiles/unique_ptr_tests.dir/unique_ptr_tests.cpp.o: /home/Alishka/cpp/lab_te
   /usr/lib/linux/uapi/x86/asm/posix_types_64.h \
   /usr/lib/linux/uapi/x86/asm/types.h
 
+unique_ptr_tests: /lib/x86_64-linux-gnu/libc.so.6 \
+  /lib/x86_64-linux-gnu/libm.so.6 \
+  /lib/x86_64-linux-gnu/libmvec.so.1 \
+  /lib64/ld-linux-x86-64.so.2 \
+  /usr/lib/x86_64-linux-gnu/Scrt1.o \
+  /usr/lib/x86_64-linux-gnu/crti.o \
+  /usr/lib/x86_64-linux-gnu/crtn.o \
+  /usr/lib/x86_64-linux-gnu/libc.so \
+  /usr/lib/x86_64-linux-gnu/libgcc_s.so.1 \
+  /usr/lib/x86_64-linux-gnu/libm.so \
+  /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o \
+  /usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o \
+  /usr/lib/gcc/x86_64-linux-gnu/14/libasan.so \
+  /usr/lib/gcc/x86_64-linux-gnu/14/libasan_preinit.o \
+  /usr/lib/gcc/x86_64-linux-gnu/14/libgcc.a \
+  /usr/lib/gcc/x86_64-linux-gnu/14/libgcc_s.so \
+  /usr/lib/gcc/x86_64-linux-gnu/14/libstdc++.so \
+  /usr/lib/gcc/x86_64-linux-gnu/14/libubsan.so \
+  /usr/lib/x86_64-linux-gnu/libc_nonshared.a \
+  CMakeFiles/unique_ptr_tests.dir/unique_ptr_tests.cpp.o \
+  lib/libgtest.a \
+  lib/libgtest_main.a
+
+
+lib/libgtest.a:
+
+CMakeFiles/unique_ptr_tests.dir/unique_ptr_tests.cpp.o:
+
+/usr/lib/x86_64-linux-gnu/libc_nonshared.a:
+
+/usr/lib/gcc/x86_64-linux-gnu/14/libstdc++.so:
+
+/usr/lib/gcc/x86_64-linux-gnu/14/libgcc.a:
+
+/usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o:
+
+/usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o:
+
+/usr/lib/x86_64-linux-gnu/libc.so:
+
+/usr/lib/x86_64-linux-gnu/crti.o:
+
+/usr/lib/gcc/x86_64-linux-gnu/14/libasan_preinit.o:
+
+/lib64/ld-linux-x86-64.so.2:
 
 /usr/lib/linux/uapi/x86/asm/posix_types.h:
 
@@ -468,6 +513,8 @@ CMakeFiles/unique_ptr_tests.dir/unique_ptr_tests.cpp.o: /home/Alishka/cpp/lab_te
 
 /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
 
+/usr/lib/gcc/x86_64-linux-gnu/14/libubsan.so:
+
 /usr/include/x86_64-linux-gnu/bits/stdint-least.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
@@ -564,6 +611,8 @@ _deps/googletest-src/googletest/include/gtest/gtest-message.h:
 
 /usr/include/c++/14/bits/locale_conv.h:
 
+/lib/x86_64-linux-gnu/libm.so.6:
+
 /usr/include/c++/14/iosfwd:
 
 /usr/include/c++/14/bits/move.h:
@@ -579,6 +628,8 @@ _deps/googletest-src/googletest/include/gtest/gtest-message.h:
 /usr/include/x86_64-linux-gnu/bits/signum-generic.h:
 
 /usr/include/c++/14/bits/hashtable.h:
+
+/usr/lib/x86_64-linux-gnu/crtn.o:
 
 /usr/include/x86_64-linux-gnu/bits/waitflags.h:
 
@@ -611,6 +662,8 @@ _deps/googletest-src/googletest/include/gtest/gtest-death-test.h:
 /usr/include/c++/14/bits/stl_tree.h:
 
 _deps/googletest-src/googletest/include/gtest/internal/gtest-param-util.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/14/libgcc_s.so:
 
 /usr/include/c++/14/bits/chrono.h:
 
@@ -706,9 +759,13 @@ _deps/googletest-src/googletest/include/gtest/gtest-typed-test.h:
 
 /usr/include/c++/14/bits/ptr_traits.h:
 
+/lib/x86_64-linux-gnu/libc.so.6:
+
 /usr/include/x86_64-linux-gnu/bits/types/sigval_t.h:
 
 /usr/include/c++/14/pstl/glue_memory_defs.h:
+
+/usr/lib/x86_64-linux-gnu/libm.so:
 
 /usr/include/c++/14/ios:
 
@@ -737,6 +794,8 @@ _deps/googletest-src/googletest/include/gtest/gtest-assertion-result.h:
 /usr/include/c++/14/stdexcept:
 
 /usr/include/c++/14/any:
+
+lib/libgtest_main.a:
 
 /usr/include/c++/14/array:
 
@@ -914,6 +973,8 @@ _deps/googletest-src/googletest/include/gtest/internal/gtest-string.h:
 
 /usr/include/c++/14/istream:
 
+/lib/x86_64-linux-gnu/libmvec.so.1:
+
 /usr/include/stdlib.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
@@ -936,6 +997,10 @@ _deps/googletest-src/googletest/include/gtest/internal/gtest-string.h:
 
 /usr/include/c++/14/type_traits:
 
+/usr/lib/gcc/x86_64-linux-gnu/14/libasan.so:
+
+/usr/lib/x86_64-linux-gnu/Scrt1.o:
+
 /usr/include/c++/14/typeinfo:
 
 /usr/include/c++/14/unordered_map:
@@ -953,6 +1018,8 @@ _deps/googletest-src/googletest/include/gtest/internal/gtest-string.h:
 /usr/include/c++/14/utility:
 
 /usr/include/ctype.h:
+
+/usr/lib/x86_64-linux-gnu/libgcc_s.so.1:
 
 /usr/include/linux/close_range.h:
 
